@@ -70,6 +70,7 @@
     <section id="featuresListLayout2" style="padding-bottom:50px;" class="features-list features-list-layout2 bg-overlay bg-overlay-gradient bg-parallax pt-50">
       <div class="bg-img"><img src="<?php frontend("/images/blog/grid/3.jpg");?>" alt="background"></div>
       <div class="container">
+          <script data-ad-client="ca-pub-6788405980406208" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-50">
