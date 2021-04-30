@@ -170,12 +170,12 @@
                   <div class="blog__meta-cat">
                   </div><!-- /.blog-meta-cat -->
                 </div><!-- /.blog-meta -->
-                <h4 class="blog__title"><a href="#"><?php echo $artikel->judul;?></a></h4>
+                <h4 class="blog__title"><a href="<?php echo site_url('artikel/'.$artikel->judul;?>"></a></h4>
                 <span class="blog__meta-date"><?php echo convert_date($artikel->tgl_create);?></span>
                 <p class="blog__desc">
                   <?php echo $artikel->txt;?>
                 </p>
-                <a href="#" class="btn btn__secondary btn__link">
+                <a href="<?php echo site_url('artikel/'.$artikel->judul;?>" class="btn btn__secondary btn__link">
                   <span>Read More</span>
                   <i class="icon-arrow-right2"></i>
                 </a>
